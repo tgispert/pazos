@@ -1,0 +1,113 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand-title{
+    font-weight: bold;
+}
+
+nav{
+    border-bottom: 5px solid rgba(160,255,60,0.7);
+}
+
+#section-home{
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/images/buildings.jpg");
+    background-color: #cccccc;
+    min-height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section-home .resumen{
+    padding: 3%;
+    background-color: rgba(160,255,60,0.7);
+}
+
+#section-home .resumen ul{
+    list-style-image: url("../assets/images/building icon.png");
+    margin: auto;
+}
+
+#section-home .resumen ul li{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 5px;
+    margin-bottom: 0.8em;
+}
+
+#section-como{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#section-como h1,h5{
+    font-weight: bold;
+}
+
+#section-como img{
+    border: 5px solid rgba(160,255,60,0.7);
+    margin-bottom: 7%;
+}
+
+.section-como-paso {
+    padding-top: 5%;
+}
+
+.section-como-paso p{
+    padding-top: 5%;
+}
+
+#section-servicios{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(231, 231, 231);
+    background-image: url("../assets/images/services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section-servicios .row{
+    margin: 0;
+}
+
+#section-servicios h1{
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#section-servicios h5{
+    font-weight: bold;
+    color: white;
+}
+
+.section-servicios-box {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    background-color: rgba(160,255,60,0.85);
+}
+
+.section-servicios-box p{
+    padding-top: 5%;
+}
+
+.section-servicios-box p span{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 7%;
+}
+
+.hshp-logo{
+    height: 30px;
+}
+
+.disabled{
+    pointer-events: none;
+}
